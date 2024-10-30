@@ -55,7 +55,7 @@ class RestaurantOrderApp {
         }
     }
 
-    public void addOrder(int menuId, int quantity) {
+    public void addOrdertest(int menuId, int quantity) {
             MenuItem item = getMenuItemById(menuId);
             if (item != null) {
                 orders.add(new OrderItem(item, quantity));
